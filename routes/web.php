@@ -47,7 +47,7 @@ Route::get('/', function () {
         ],[
             'name' => "Success is not for the extraordinary. It's for everyone.",
             'description' => 'Personal experience: Having the honor to give the freshmen speech at the Faculty of Computer Science and Engineering in Skopje.',
-            'href' => '#',
+            'href' => 'https://wetalkit.xyz/success-is-not-for-the-extraordinary-ce459fd7eed2',
             'image' => 'freshmen-speech.jpeg',
             'tags' => ['motivation', 'experience'],
         ],[
