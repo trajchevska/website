@@ -32,7 +32,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: .85;
+  opacity: 0.85;
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
@@ -65,49 +65,49 @@ body {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  background-color: #fff;
+  border-color: #ccc;
 }
 .navbar-default .navbar-nav > li > a {
   color: #454545;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #000000;
-  background-color: #ffffff;
+  color: #000;
+  background-color: #fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #000000;
-  background-color: #ffffff;
+  color: #000;
+  background-color: #fff;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a {
   color: #454545;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a:hover {
-  background-color: #eeeeee;
-  color: #000000;
+  background-color: #eee;
+  color: #000;
 }
 .navbar-default .navbar-toggle {
   border-color: #666666;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #333333;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #cccccc;
+  border-color: #ccc;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #fff;
+  color: #000;
 }
 /****************************************************************************************
 
@@ -143,6 +143,8 @@ body {
 **********************************************************************/
 p {
   line-height: 1.6em;
+}
+p:last-child {
   margin: 0 0 30px 0;
 }
 ul,
@@ -192,10 +194,10 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #bd1550;
+  color: #F4C53F;
 }
 a:hover {
-  color: #e93675;
+  color: #f8db87;
 }
 .lead {
   font-weight: 300;
@@ -225,7 +227,7 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url(../images/bg_head.jpg) top center;
+  background: #f4f4f4 url('/assets/images/head-2.png') top center;
   background-size: cover;
   color: #7C7C7C;
   padding: 30px 0 35px 0;
@@ -260,6 +262,17 @@ a:hover {
 }
 #head .tagline a {
   color: #5E5E5E;
+}
+#head .social {
+  text-align: center;
+}
+#head .social a {
+  color: #7C7C7C;
+  padding: 5px;
+  font-size: 20px;
+}
+#head .social a:hover {
+  color: #303030;
 }
 .home #head {
   padding: 90px 0;
@@ -307,18 +320,18 @@ img {
   transition-duration: 0.2s;
   border: 0 none;
   padding: 12px 35px;
-  text-shadow: 0 1px 0px #780d33;
+  text-shadow: 0 1px 0px #daa50c;
 }
 .btn-primary {
   color: #fff;
-  background-color: #bd1550;
+  background-color: #F4C53F;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
   color: #fff;
-  background-color: #e61f65;
+  background-color: #f7d46f;
 }
 .btn-action {
   font-weight: bold;
@@ -330,8 +343,8 @@ img {
 .btn-action:focus,
 .btn-action:active,
 .btn-action.active {
-  color: #bd1550;
-  border-color: #bd1550;
+  color: #F4C53F;
+  border-color: #F4C53F;
 }
 .btn-lg {
   padding: 15px 60px;
@@ -449,8 +462,8 @@ img {
   font-size: 12px;
   font-size: 0.75rem;
   text-transform: uppercase;
-  text-shadow: 0 1px 0px #780d33;
-  background: #bd1550;
+  text-shadow: 0 1px 0px #daa50c;
+  background: #F4C53F;
   color: white;
 }
 .thumbnail img {
@@ -525,7 +538,7 @@ img {
   content: "";
   position: absolute;
   height: 4px;
-  top: .53em;
+  top: 0.53em;
   width: 400%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
@@ -539,6 +552,14 @@ img {
 .entry-title span:after {
   left: 100%;
   margin-left: 45px;
+}
+.section-intro p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 25px;
+}
+.section-intro p:last-child {
+  margin-bottom: 30px;
 }
 .entry-header .entry-meta {
   text-align: center;
@@ -701,7 +722,7 @@ footer.entry-meta .meta-in {
   color: #333333;
 }
 #comments .comment-meta a:hover {
-  color: #bd1550;
+  color: #F4C53F;
 }
 #comments .comment-meta .author {
   margin: 0 20px 0 0;

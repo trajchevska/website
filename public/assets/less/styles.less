@@ -10,7 +10,7 @@
 @color-default         : #666666;
 @color-contrast        : #333333;
 @color-dimmed          : lighten(@color-default, 30%);
-@color-action          : #bd1550;
+@color-action          : #F4C53F;
 @color-caption         : @color-contrast;
 @color-meta            : #a5a5a5;
 
@@ -19,7 +19,7 @@
 @font-serif            : Georgia, serif;
 @font-special          : Alice, Georgia, serif;
 
-@header-bg             : #f4f4f4 url(../images/bg_head.jpg) top center;
+@header-bg             : #f4f4f4 url('/assets/images/head-2.png') top center;
 @header-bg-size        : cover;
 
 
@@ -48,7 +48,7 @@ body { .font-size(1.5); font-family:@font-sans; color:@color-default; padding:0;
 
 
 **********************************************************************/
-p { line-height:1.6em; margin:0 0 30px 0; }
+p { line-height:1.6em; &:last-child { margin:0 0 30px 0; } }
 ul, ol { line-height:1.6em; margin:0 0 30px 0; }
 blockquote { padding: 10px 20px; margin: 0 0 30px; border-left: 5px solid #eee; }
 
@@ -101,6 +101,18 @@ a {
 		display:block; .font-size(1.4); line-height:1.2em; color:#7C7C7C; margin:5px 0 0;
 		b { font-weight: normal; }
 		a { color:#5E5E5E; }
+	}
+
+	.social {
+		text-align: center;
+		a {
+			color: #7C7C7C;
+			padding: 5px;
+			font-size: 20px;
+			&:hover {
+				color: darken(#7C7C7C, 30%);
+			}
+		}
 	}
 }
 
@@ -248,6 +260,17 @@ img { max-width: 100%; }
 
 		&:before { right:100%; margin-right:45px; }
 		&:after { left:100%; margin-left:45px; }
+	}
+}
+
+.section-intro {
+	p {
+		margin-bottom: 10px;
+		font-size: 14px;
+    	line-height: 25px;
+		&:last-child {
+			margin-bottom: 30px;
+		}
 	}
 }
 
