@@ -265,6 +265,7 @@ a:hover {
 }
 #head .social {
   text-align: center;
+  margin-top: 10px;
 }
 #head .social a {
   color: #7C7C7C;

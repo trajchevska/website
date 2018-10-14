@@ -24,11 +24,11 @@
 
 <header id="header">
 	<div id="head">
-		<h1 id="logo" class="text-center">
+		<div id="logo" class="text-center">
 			<img class="img-circle" src="assets/images/profile.jpg" alt="Katerina Trajchevska">
-			<span class="title">Katerina Trajchevska</span>
-			<span class="tagline">Software engineer, tech volunteer,<br/> remote work advocate and co-founder of <a target="_blank" href="https://adeva.co">Adeva</a></span>
-		</h1>
+			<h1 class="title">Katerina Trajchevska</h1>
+			<h2 class="tagline">Software engineer, tech volunteer,<br/> remote work advocate and co-founder of <a target="_blank" href="https://adeva.co">Adeva</a></h2>
+		</div>
 		<p class="social">
 			<a href="https://www.linkedin.com/in/trajchevska/" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
 			<a href="https://twitter.com/ktrajchevska" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
