@@ -22,6 +22,10 @@
 </head>
 <body class="home">
 <div itemscope itemtype="http://schema.org/Person">
+	<link itemprop="sameAs" href="https://www.linkedin.com/in/trajchevska/" />
+	<link itemprop="sameAs" href="https://twitter.com/ktrajchevska" />
+	<link itemprop="sameAs" href="https://github.com/trajchevska" />
+	<link itemprop="sameAs" href="https://medium.com/@trajchevska" />
 	<header id="header">
 		<div id="head">
 			<div id="logo" class="text-center">
