@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
+	<meta name="description" content="Katerina Trajchevska is a software engineer and CEO of Adeva. She advocates for remote work and leads many initiatives for women in tech.">
 	
-	<title>Katerina Trajchevska, Software Engineer and Entrepreneur</title>
+	<title>Katerina Trajchevska, Software Engineer and CEO at Adeva</title>
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	<link rel="shortcut icon" href="/favicon.ico">
 	
 	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 <header id="header">
 	<div id="head">
 		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/profile.jpg" alt="">
+			<img class="img-circle" src="assets/images/profile.jpg" alt="Katerina Trajchevska">
 			<span class="title">Katerina Trajchevska</span>
 			<span class="tagline">Software engineer, tech volunteer,<br/> remote work advocate and co-founder of <a target="_blank" href="https://adeva.co">Adeva</a></span>
 		</h1>
@@ -86,7 +86,7 @@
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 					<a class="thumbnail" href="{{$project['href']}}" target="_blank">
 						<span class="img">
-							<img src="/assets/images/{{$project['image']}}" alt="">
+							<img src="/assets/images/{{$project['image']}}" alt="{{$project['name']}}">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
 						</span>
 						<span class="title">{{$project['name']}}</span>
@@ -134,7 +134,7 @@
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 					<a class="thumbnail" href="{{$insight['href']}}" target="_blank">
 						<span class="img">
-							<img src="assets/images/blog/{{$insight['image']}}" alt="">
+							<img src="assets/images/blog/{{$insight['image']}}" alt="{{$insight['name']}}">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
 						</span>
 						<span class="title">{{$insight['name']}}</span>
