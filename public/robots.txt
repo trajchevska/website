@@ -1,2 +1,3 @@
+Sitemap: http://trajchevska.com/sitemap.xml
 User-agent: *
 Disallow:
