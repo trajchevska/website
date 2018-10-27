@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Katerina Trajchevska">
 	<meta name="description" content="Katerina Trajchevska is a software engineer and CEO of Adeva. She advocates for remote work and leads many initiatives for women in tech.">
 	
 	<title>Katerina Trajchevska, Software Engineer and CEO at Adeva</title>
@@ -26,6 +27,7 @@
 	<link itemprop="sameAs" href="https://twitter.com/ktrajchevska" />
 	<link itemprop="sameAs" href="https://github.com/trajchevska" />
 	<link itemprop="sameAs" href="https://medium.com/@trajchevska" />
+	<link itemprop="sameAs" href="https://plus.google.com/+KaterinaTrajchevska" />
 	<header id="header">
 		<div id="head">
 			<div id="logo" class="text-center">
