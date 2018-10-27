@@ -33,7 +33,7 @@
 			<div id="logo" class="text-center">
 				<img class="img-circle" src="assets/images/profile.jpg" alt="Katerina Trajchevska">
 				<h1 class="title" itemprop="name">Katerina Trajchevska</h1>
-				<h2 class="tagline" itemprop="hasOccupation">Software engineer, remote work advocate and CEO at Adeva</h2>
+				<h2 class="tagline" itemprop="jobTitle">Software engineer, remote work advocate and CEO at Adeva</h2>
 			</div>
 			<p class="social">
 				<a href="https://www.linkedin.com/in/trajchevska/" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
@@ -68,7 +68,7 @@
 
 		<div class="container">
 			
-			<div class="row section topspace" id="about">
+			<div class="row section topspace" id="about" itemprop="description">
 				<div class="col-md-12">
 					<p class="lead text-center text-muted">Hey, there! 👋 I am Katerina, software engineer and co-founder of <a href="https://adevait.com">Adeva</a>.</p> 
 					<p class="lead text-center text-muted" itemprop="disambiguatingDescription">Leading Adeva for over {{$adevaLeadYears}} years, I've had the chance to collaborate with various companies from early stage startups to Fortune 500. That helped me gain valuable insights in many different industries, work with passionate teams and innovate.</p>
