@@ -121,13 +121,15 @@
 				</div>
 				<div class="row">
 					@foreach($conferences as $conference)
-					<div class="col-sm-6 col-md-3" {{@$conference['video']?'itemprop="video" itemscope itemtype="http://schema.org/VideoObject"':''}}>
+					<div class="col-sm-6 col-md-3" itemprop="performerIn" itemscope itemtype="http://schema.org/Event">
 						<h3 class="text-center" itemprop="name">{{$conference['name']}}</h3>
-						<div class="text-center">
-							{!!@$conference['video']!!}
+						@if(isset($conference['video']))
+						<div class="text-center" itemscope itemtype="http://schema.org/VideoObject">
+							{!!$conference['video']!!}
+							<meta itemprop="url" content="{{$conference['video_url']}}">
 						</div>
+						@endif
 						<p class="text-center" itemprop="description">{{$conference['description']}}</p>
-						<meta itemprop="url" content="{{@$conference['video_url']}}">
 						<p class="text-center"><a href="{{$conference['href']}}" target="_blank" class="btn btn-action">Read more</a></p>
 					</div>
 					@endforeach
