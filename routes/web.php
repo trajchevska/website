@@ -62,30 +62,12 @@ Route::get('/', function () {
             'href' => 'https://adevait.com/blog/remote-work/remote-better-developer-communicating/',
             'image' => 'remote-communication.jpg',
             'tags' => ['remote work', 'developers'],
-        // ],[
-        //     'name' => "This is what happens when you get to work from wherever you want",
-        //     'description' => 'At the office, Automatticians had an amazing environment, books, games, all the equipment they needed. Why did they choose remote instead?',
-        //     'href' => 'https://wetalkit.xyz/this-is-what-happens-when-you-get-to-work-from-wherever-you-want-e0d7fed0033a',
-        //     'image' => 'automattic.jpeg',
-        //     'tags' => ['remote work'],
-        // ],[
-        //     'name' => "How to lead a remote team that will actually bring results",
-        //     'description' => 'What would you do if the only thing that mattered was how good your employees are and not where they’re located? Would you go beyond traditional hiring?',
-        //     'href' => 'https://medium.com/@trajchevska/how-to-lead-a-remote-team-that-will-actually-bring-results-4bb6862ac3b7',
-        //     'image' => 'remote-lead.jpeg',
-        //     'tags' => ['remote work', 'leadership'],
         ],[
             'name' => "Growth Lessons From Instagram, Before It Was Instagram",
             'description' => 'Instagram was built in 8 weeks, it went viral in a matter of hours. It looks so easy it’s unnerving. Well…not so fast. There is another side of the story.',
             'href' => 'https://thinkgrowth.org/growth-lessons-from-instagram-before-it-was-instagram-cf414612330b',
             'image' => 'instagram.jpeg',
             'tags' => ['startups', 'growth'],
-        // ],[
-        //     'name' => "Introducing We Talk IT: the Developers' Community",
-        //     'description' => 'Welcome to We Talk IT: the tech community that empowers developers, encourages collaboration and making a change through technology.',
-        //     'href' => 'https://wetalkit.xyz/introducing-wetalkit-e6e74a4e44da',
-        //     'image' => 'wetalkit.png',
-        //     'tags' => ['community', 'developers'],
         ],[
             'name' => "Women in tech: constant fight for gender balance",
             'description' => 'Even in an era when gender inequality may seem like a problem from the past, things are not yet very balanced. And they are even more alarming in tech world.',
@@ -100,6 +82,8 @@ Route::get('/', function () {
             'name' => "Code Talks, Hamburg",
             'description' => 'Speaking about good software design practices at the largest developers\' conference in Germany. The presentation aims to show how what can be a minor effort if done on time can cause major delays if not.',
             'href' => 'https://www.codetalks.de/speakers#talk-241',
+            // 'video' => '<iframe width="100%" src="https://www.youtube.com/embed/iS__wLPgfPg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            // 'video_url' => 'https://youtu.be/iS__wLPgfPg?list=PLIoWuZuU3QpckVShiCgauq_OwGLI8M-9l',
         ],[
             'name' => "Laracon EU, Amsterdam",
             'description' => 'I was talking about SOLID design principles at the largest Laravel conference in Europe. I had the chance to share good design practices with an audience of 800 developers, which was an amazing experience.',

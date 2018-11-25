@@ -34,6 +34,9 @@
 				<img class="img-circle" src="assets/images/profile.jpg" alt="Katerina Trajchevska">
 				<h1 class="title" itemprop="name">Katerina Trajchevska</h1>
 				<h2 class="tagline" itemprop="jobTitle">Software engineer, remote work advocate and CEO at Adeva</h2>
+				<p class="tagline">
+					<i class="fa fa-trophy"></i> Winner of <span itemprop="award">International Women in Tech Awards 2018: Best Inclusive Tech Company</span>
+				</p>
 			</div>
 			<p class="social">
 				<a href="https://www.linkedin.com/in/trajchevska/" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
@@ -70,10 +73,9 @@
 			
 			<div class="row section topspace" id="about" itemprop="description">
 				<div class="col-md-12">
-					<p class="lead text-center text-muted">Hey, there! 👋 I am Katerina, software engineer and co-founder of <a href="https://adevait.com">Adeva</a>.</p> 
-					<p class="lead text-center text-muted" itemprop="disambiguatingDescription">Leading Adeva for over {{$adevaLeadYears}} years, I've had the chance to collaborate with various companies from early stage startups to Fortune 500. That helped me gain valuable insights in many different industries, work with passionate teams and innovate.</p>
-
-					<p class="lead text-center text-muted"></p>
+					<p class="lead text-center text-muted">Hey, there! 👋 I am Katerina, Software Engineer and CEO at <a href="https://adevait.com">Adeva</a>.</p> 
+					<p class="lead text-center text-muted">In 2014, I co-founded Adeva, a talent marketplace for remote developers with the goal to bringing equal opportunities to developers everywhere. Today, our network has over 300 developers from over 20 countries, working with exciting startups and Fortune 500 companies.</p>
+					<p class="lead text-center text-muted">My personal mission is to inspire people to make a difference, no matter where they come from. To achieve that, I initiate various projects and initiatives, mentor, speek at conferences and take part of many volunteering activities.</p>
 				</div>
 			</div> <!-- / section -->
 
@@ -113,15 +115,19 @@
 			</div>
 			
 			<div class="row section featured topspace" id="speeches">
-				<h2 class="section-title"><span>Conferences &amp; Hackathons</span></h2>
+				<h2 class="section-title"><span>Conference Speeches &amp; Mentorship</span></h2>
 				<div class="col-md-10 col-md-offset-1 section-intro">
 					<p class="text-center">I am a tech enthusiast and I love sharing knowledge. And, I strongly believe in the cause of using technology for a greater good so I try to apply it wherever possible. Right now, that is by volunteering with workshops and speeches on conferences, as well as mentoring at various hackathons locally. Here are the ones I'm most proud of.</p>
 				</div>
 				<div class="row">
 					@foreach($conferences as $conference)
-					<div class="col-sm-6 col-md-3">
-						<h3 class="text-center">{{$conference['name']}}</h3>
-						<p>{{$conference['description']}}</p>
+					<div class="col-sm-6 col-md-3" {{@$conference['video']?'itemprop="video" itemscope itemtype="http://schema.org/VideoObject"':''}}>
+						<h3 class="text-center" itemprop="name">{{$conference['name']}}</h3>
+						<div class="text-center">
+							{!!@$conference['video']!!}
+						</div>
+						<p class="text-center" itemprop="description">{{$conference['description']}}</p>
+						<meta itemprop="url" content="{{@$conference['video_url']}}">
 						<p class="text-center"><a href="{{$conference['href']}}" target="_blank" class="btn btn-action">Read more</a></p>
 					</div>
 					@endforeach
