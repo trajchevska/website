@@ -115,14 +115,14 @@
 			</div>
 			
 			<div class="row section featured topspace" id="speeches">
-				<h2 class="section-title"><span>Conference Speeches &amp; Mentorship</span></h2>
+				<h2 class="section-title"><span>Conference Speeches</span></h2>
 				<div class="col-md-10 col-md-offset-1 section-intro">
 					<p class="text-center">I am a tech enthusiast and I love sharing knowledge. And, I strongly believe in the cause of using technology for a greater good so I try to apply it wherever possible. Right now, that is by volunteering with workshops and speeches on conferences, as well as mentoring at various hackathons locally. Here are the ones I'm most proud of.</p>
 				</div>
 				<div class="row">
 					@foreach($conferences as $conference)
 					<div class="col-sm-6 col-md-3">
-						<h3 class="text-center">{{$conference['name']}}</h3>
+						<h3 class="text-center">{!!$conference['name']!!}</h3>
 						@if(isset($conference['video']))
 						<div class="text-center" itemscope itemtype="http://schema.org/VideoObject">
 							{!!$conference['video']!!}
@@ -148,7 +148,7 @@
 					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 						<a class="thumbnail" href="{{$insight['href']}}" target="_blank">
 							<span class="img">
-								<img src="assets/images/blog/{{$insight['image']}}" alt="{{$insight['name']}}">
+								<img src="{{$insight['image']}}" alt="{{$insight['name']}}">
 								<span class="cover"><span class="more">See details &rarr;</span></span>
 							</span>
 							<span class="title">{{$insight['name']}}</span>
