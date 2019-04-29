@@ -99,15 +99,15 @@ Route::get('/', function () {
         [
             'name' => "PHP UK, <br/>London",
             'description' => 'Opening keynote on the second day of the conference, talking about good software design practices and using SOLID design principles to become better developers.',
-            'href' => 'https://speakerdeck.com/trajchevska/from-good-to-solid-how-to-become-better-php-developer',
+            'href' => 'https://www.youtube.com/watch?v=ILFcofVJUF4',
         ],[
             'name' => "Code Talks, Hamburg",
             'description' => 'Speaking about good software design practices at the largest developers\' conference in Germany. The presentation aims to show how what can be a minor effort if done on time can cause major delays if not.',
-            'href' => 'https://www.codetalks.de/speakers#talk-241',
+            'href' => 'https://www.youtube.com/watch?v=rtmFCcjEgEw',
         ],[
             'name' => "Laracon EU, Amsterdam",
             'description' => 'I was talking about SOLID design principles at the largest Laravel conference in Europe. I had the chance to share good design practices with an audience of 800 developers, which was an amazing experience.',
-            'href' => 'https://laracon.eu/2018/speakers/katerina/',
+            'href' => 'https://www.youtube.com/watch?v=iS__wLPgfPg',
         ],[
             'name' => "DEVit, Thessaloniki",
             'description' => 'I held a workshop on SOLID design principles and good code design at the leading web developer conference in South East Europe. It helped around 30 developers learn how to write software that\'s easy to extend and maintain.',
