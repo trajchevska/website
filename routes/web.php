@@ -42,13 +42,13 @@ Route::get('/', function () {
             'name' => "Implementing Agile Processes in Distributed teams",
             'description' => 'Agile companies are hesitant about remote work. Learn how to overcome all challenges by implementing agile processes in a distributed team.',
             'href' => 'https://adevait.com/blog/remote-work/agile-processes-distributed-teams/',
-            'image' => 'https://adevait.com/blog/wp-content/uploads/2019/01/Agile-processes-in-distributed-teams.jpg',
+            'image' => 'https://content.adevait.com/wp-content/uploads/2019/01/Agile-processes-in-distributed-teams.jpg',
             'tags' => ['agile', 'remote work'],
         ],[
             'name' => "The Environmental Impact of Remote Work",
             'description' => 'Apart from benefiting the business, remote work also benefits the environment. Working remotely reduces the carbon footprint and increases life quality.',
             'href' => 'https://adevait.com/blog/remote-work/environmental-impact-remote-work/',
-            'image' => 'https://adevait.com/blog/wp-content/uploads/2018/11/CT-2@2x-100.jpg',
+            'image' => 'https://content.adevait.com/wp-content/uploads/2018/11/CT-2@2x-100.jpg',
             'tags' => ['public speaking', 'remote work'],
         ],[
             'name' => "The part of conference speaking that's usually left unsaid.",
@@ -72,7 +72,7 @@ Route::get('/', function () {
             'name' => "This is what happens when you get to work from wherever you want",
             'description' => '“We focus on two things when hiring. First, find the best people you can in the world. And second, let them do their work. Just get out of their way.“— Matt Mullenweg, CEO at Automattic',
             'href' => 'https://adevait.com/blog/remote-work/this-is-what-happens-when-you-get-to-work-from-wherever-you-want/',
-            'image' => 'https://adevait.com/blog/wp-content/uploads/2017/10/1_Xlc-7QzlED4ZlRfs6K3hxw.jpeg',
+            'image' => 'https://content.adevait.com/wp-content/uploads/2017/10/1_Xlc-7QzlED4ZlRfs6K3hxw.jpeg',
             'tags' => ['remote work'],
         ],[
             'name' => "Remote: become a better developer by communicating",
